@@ -1,0 +1,10 @@
+
+KEY METRICS
+-----------
+Total Encounters:        72,000
+Total Billed Revenue:    Rs. 11.25 Cr
+Total Collected Revenue: Rs. 8.11 Cr
+Revenue Leakage:         27.9%
+Overall Denial Rate:     10.1%
+Top Denial Driver:       Coverage Terminated (Rs. 0.15 Cr at risk)
+Highest-Denial Payer:    Medicaid (13.7%)

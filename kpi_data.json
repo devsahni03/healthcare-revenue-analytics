@@ -1,0 +1,63 @@
+{
+  "encounters": 72000,
+  "total_billed_cr": 11.25,
+  "total_collected_cr": 8.11,
+  "leakage_pct": 27.9,
+  "denial_rate": 10.1,
+  "payer_denial": {
+    "Medicaid": 13.7,
+    "Medicare": 11.2,
+    "UnitedHealthcare": 10.0,
+    "BlueCross BlueShield": 9.7,
+    "Aetna": 9.1,
+    "Cigna": 8.6,
+    "Self-Pay": 5.0
+  },
+  "reason_risk_cr": {
+    "Coding Error": 0.13,
+    "Medical Necessity Not Met": 0.13,
+    "Incorrect Patient Info": 0.14,
+    "Duplicate Claim": 0.14,
+    "Prior Authorization Missing": 0.14,
+    "Non-Covered Service": 0.14,
+    "Timely Filing Limit Exceeded": 0.14,
+    "Coverage Terminated": 0.15
+  },
+  "monthly_leakage": {
+    "2024-01": 27.6,
+    "2024-02": 28.2,
+    "2024-03": 26.6,
+    "2024-04": 26.6,
+    "2024-05": 28.0,
+    "2024-06": 28.4,
+    "2024-07": 27.2,
+    "2024-08": 28.7,
+    "2024-09": 27.9,
+    "2024-10": 27.5,
+    "2024-11": 27.3,
+    "2024-12": 27.9,
+    "2025-01": 28.4,
+    "2025-02": 29.1,
+    "2025-03": 28.3,
+    "2025-04": 27.4,
+    "2025-05": 28.3,
+    "2025-06": 27.4,
+    "2025-07": 27.8,
+    "2025-08": 29.6,
+    "2025-09": 29.2,
+    "2025-10": 27.8,
+    "2025-11": 27.1,
+    "2025-12": 27.6
+  },
+  "dept_collection": {
+    "Emergency": 71.4,
+    "Pediatrics": 71.5,
+    "Radiology": 71.7,
+    "Neurology": 71.7,
+    "Orthopedics": 72.0,
+    "General Medicine": 72.0,
+    "Oncology": 72.2,
+    "Cardiology": 72.2,
+    "Surgery": 72.6
+  }
+}
