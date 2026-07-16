@@ -29,6 +29,21 @@ claim statuses. Not real patient data — built for portfolio/learning purposes.
 Columns: `encounter_id`, `patient_id`, `department`, `payer`, `service_date`, `billed_amount`,
 `allowed_amount`, `paid_amount`, `claim_status`, `denial_reason`.
 
+## Power BI Report
+
+Built as a 2-page report with DAX measures for revenue leakage, denial rate, and a
+benchmark-based recovery opportunity calculation. See `POWER_BI_GUIDE.md` for the
+full DAX and build steps if you want to reproduce it.
+
+**Page 1 — Revenue Cycle Overview**
+![Revenue Cycle Overview](powerbi/report_page1_overview.jpg)
+
+**Page 2 — Denial Deep-Dive**
+![Denial Deep-Dive](powerbi/report_page2_denial_deepdive.jpg)
+
+The `.pbix` file is in `powerbi/Healthcare_Revenue_Analytics.pbix` — open it directly
+in Power BI Desktop to explore the live report, filters, and DAX measures.
+
 ## Repo structure
 
 ```
@@ -43,6 +58,10 @@ Columns: `encounter_id`, `patient_id`, `department`, `payer`, `service_date`, `b
 ├── dashboard/
 │   ├── index.html                      # Interactive HTML dashboard (Chart.js)
 │   └── assets/                         # Static chart PNGs + KPI JSON
+├── powerbi/
+│   ├── Healthcare_Revenue_Analytics.pbix
+│   ├── report_page1_overview.jpg
+│   └── report_page2_denial_deepdive.jpg
 ├── POWER_BI_GUIDE.md                   # DAX measures + report build guide
 └── README.md
 ```
